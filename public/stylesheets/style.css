@@ -17,11 +17,122 @@ a {
 }
 .aka{
   background-color: rgb(255, 255, 255);
+  color: #ff0000;
+  background-color: #ffffff;
+  border: 2px solid red;
 }
 .subscribe-form{
   padding: 10px;
 }
 .admin-view-bot1{
   background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.admin-header{
+  width: 100%;
+  height: 160px;
+}
+.admin-header header{
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+.admin-header h2{
+  color: red;
+}
+.user-header-parent{
+  box-shadow: 0 0 18px 0 #ff0000 inset; 
+  display: flex !important ;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  background-color: rgb(0, 0, 0); 
+  position: fixed; 
+  width: 100%; 
+  height: 160px; 
+  z-index: 1;
+}
+.user-header-parent section{
+  margin-right: 19px; 
+  margin-top: 19px; 
+  margin-left: 19px; 
+  margin-right: 19px; 
+  height: 7.2em;
+  margin-bottom: 0; 
+  z-index: 1; 
+  position: fixed; 
+  backface-visibility: hidden; 
+  width: 1310px; 
+  height: 120px; 
+  float: left; 
+  background-color: rgb(255, 255, 255);
+}
+.child-uhp{
+  display: flex;
+  color: red; 
+  align-items: center;
+}
+.child-uhp img{
+  width: 100px; 
+  height: 70px;
+}
+.child-uhp h1{
+  font-size: 25px;
+}
+.subscriber-div{
+  width: 140px;
+  height: 30px; 
+  margin-left: 900px; 
+  margin-top: 30px;
+}
+#hr-1-uhp{
+   margin-bottom: 0; 
+   width: 94%;
+}
+.marquee-div{
+  height: 2rem; 
+  background-color: rgb(0, 0, 0); 
+  width: 97%; 
+  margin-left: 20px;
+}
+.marquee-div p{
+  font-weight:bolder; color: rgb(255, 0, 0);margin-bottom: 0;
+}
+.marquee-div span{
+  font-size: 20px;
+}
+.hr-2-uhp{
+  margin-top: 0; width: 94%;
+}
+.newspaper-subscribe-login-forms{
+  float: left; 
+  z-index: 0;
+  width: 100%;
+  margin-top: 160px;
+  background-color: black; 
+  padding-top: 10px;
+}
+.error{
+  color: rgb(255, 0, 0);
+}
+.user-view{
+  z-index: 0; 
+  float: left; 
+  position: relative; 
+  width: 100%; 
+  height: 1000px; 
+  margin-top: 158px;
+  background-color:rgb(0, 0, 0)
+}
+.user-view-child{
+  width: 100%; height: 1000px;
+}
+.user-view-news-content-box{
+  float: left; height: 300px; 
+  width: 410px; 
+  background-color: rgb(255, 136, 0); 
+  margin: 20px; 
+  text-align:left;
+}
+.user-view-news-content-box h4{
+  margin-left:0px;
   color: rgb(255, 255, 255);
 }

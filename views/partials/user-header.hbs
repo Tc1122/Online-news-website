@@ -1,22 +1,22 @@
-<div style="box-shadow: 0 0 18px 0 #ff0000 inset; display: flex !important ;flex-direction: row;flex-wrap: wrap; background-color: rgb(0, 0, 0); position: fixed; width: 100%; height: 160px; z-index: 1;">
-  <section style="margin-right: 19px; margin-top: 19px; margin-left: 19px; margin-right: 19px; height: 7.2em;rem; margin-bottom: 0; z-index: 1; position: fixed; backface-visibility: hidden; width: 1310px; height: 120px; float: left; background-color: rgb(255, 255, 255);">
-    <header style="display: flex;color: red; align-items: center;" >
-      <img src="images/logo.webp" alt="logo.webp" style="width: 100px; height: 70px;">
-      <h1 style=" font-size: 25px;"><b>Breaking News</b></h1>
-      <div style="width: 140px;height: 30px; margin-left: 900px; margin-top: 30px;">
+<div class="user-header-parent">
+  <section>
+    <header class="child-uhp">
+      <img src="images/logo.webp" alt="logo.webp">
+      <h1><b>Breaking News</b></h1>
+      <div class="subscriber-div">
         {{#if user}}
-                <a class="aka" href="#" style="color: rgb(255, 0, 0); border: 1px solid rgb(218, 12, 12); "><b>{{user.name}}</b></a>
-                <a class="aka" href="/logout" style="color: rgb(255, 0, 0); border: 1px solid rgb(218, 12, 12); ">Logout</a>
+                <a class="aka" href="#"><b>{{user.name}}</b></a>
+                <a class="aka" href="/logout">Logout</a>
 
         {{else}}
-        <a class="aka" href="/subscribe" style="color: rgb(255, 0, 0); border: 2px solid rgb(218, 12, 12); ">Subscribe</a></div>
+        <a class="aka" href="/subscribe">Subscribe</a></div>
        {{/if}}
 </header>
-<hr style="margin-bottom: 0; width: 94%;">
- <div style=" height: 2rem; background-color: rgb(0, 0, 0); width: 97%; margin-left: 20px;">
-<marquee behavior="" direction=""><p style="font-weight:bolder; color: rgb(255, 0, 0);margin-bottom: 0;"><span style="font-size: 20px;">Breaking news: </span>India is a powerful country, indflasdkhfl;kasdhf;lhsd;lfas, aksdjgflasdjhflkasjdhflkasdhf;khsadf, kasljdhflkajdshbflkjadshklfjhsdalkj, kljsadfhlkasjdhlkjasdhlfkjhasdlkjfhlakjsdhf,  end end end end en d end end en d end en deend end end e d</p>
+<hr id="hr-1-uhp">
+ <div class="marquee-div">
+<marquee behavior="" direction=""><p><span>Breaking news: </span>India is a powerful country, indflasdkhfl;kasdhf;lhsd;lfas, aksdjgflasdjhflkasjdhflkasdhf;khsadf, kasljdhflkajdshbflkjadshklfjhsdalkj, kljsadfhlkasjdhlkjasdhlfkjhasdlkjfhlakjsdhf,  end end end end en d end end en d end en deend end end e d</p>
 </marquee>
  </div> 
-<hr style="margin-top: 0; width: 94%;">
+<hr id="hr-2-uhp">
 </section>
 </div>
