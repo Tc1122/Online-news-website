@@ -1,0 +1,23 @@
+body {
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.subscribe-parent{
+  background-color: rgb(247, 243, 239);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 440px;
+  padding: 10px;
+}
+.aka{
+  background-color: red;
+}
+.subscribe-form{
+  padding: 10px;
+}
