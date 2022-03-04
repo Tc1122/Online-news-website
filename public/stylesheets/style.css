@@ -16,8 +16,12 @@ a {
   padding: 10px;
 }
 .aka{
-  background-color: red;
+  background-color: rgb(255, 255, 255);
 }
 .subscribe-form{
   padding: 10px;
+}
+.admin-view-bot1{
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }

@@ -1,4 +1,5 @@
 var express = require('express');
+const render=require('../app');
 const newsHelper = require('../helpers/news-helper');
 var router = express.Router();
 
